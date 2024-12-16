@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HellGround
+  m_Shader: {fileID: 4800000, guid: d978ded7165f2e2428e9ab9b862682ca, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 30a8fd2b2dee8e54090ff5b729909db2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - AnimatedOffsetUV_Speed_1: 0.05
+    - AnimatedOffsetUV_X_1: 0.1
+    - AnimatedOffsetUV_Y_1: 0
+    - AnimatedOffsetUV_ZoomX_1: 1
+    - AnimatedOffsetUV_ZoomY_1: 1
+    - ColorLimit: 33
+    - LiquidUV_DistanceX_1: 0.063
+    - LiquidUV_DistanceY_1: 0.091
+    - LiquidUV_Speed_1: 0.1
+    - LiquidUV_WaveX_1: 1.455
+    - LiquidUV_WaveY_1: 1.526
+    - OffsetUV_X_1: 0.145
+    - OffsetUV_Y_1: 0
+    - OffsetUV_ZoomX_1: 1
+    - OffsetUV_ZoomY_1: 1
+    - PixelXYUV_SizeX_1: 128
+    - PixelXYUV_SizeY_1: 128
+    - RotationUV_Rotation_1: 45
+    - RotationUV_Rotation_2: 90
+    - RotationUV_Rotation_PosX_1: 0.5
+    - RotationUV_Rotation_PosX_2: 0.5
+    - RotationUV_Rotation_PosY_1: 0.5
+    - RotationUV_Rotation_PosY_2: 0.5
+    - RotationUV_Rotation_Speed_1: 0
+    - RotationUV_Rotation_Speed_2: 0
+    - _Add_Fade_1: 1
+    - _Blur_Intensity_1: 1
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Generate_Checker_PosX_1: 0.5
+    - _Generate_Checker_PosY_1: 0.5
+    - _Generate_Checker_Size_1: 32
+    - _Generate_Circle_Dist_1: 0.01
+    - _Generate_Circle_PosX_1: 0.5
+    - _Generate_Circle_PosY_1: 0.5
+    - _Generate_Circle_Size_1: 0.4
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Mask2RGBA_Fade_1: 1
+    - _MaskRGBA_Fade_1: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpriteFade: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorGradients_Color1_1: {r: 0, g: 0, b: 0.019607844, a: 1}
+    - _ColorGradients_Color2_1: {r: 0, g: 0, b: 0.019607844, a: 1}
+    - _ColorGradients_Color3_1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorGradients_Color4_1: {r: 0, g: 0, b: 0.019607844, a: 1}
+    - _ColorRGBA_Color_1: {r: 0.29411766, g: 0.078431375, b: 0.23529413, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

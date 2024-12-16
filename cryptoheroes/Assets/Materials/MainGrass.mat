@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainGrass
+  m_Shader: {fileID: 4800000, guid: bcda2e85706489545a0a2db46bad85a0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 30a8fd2b2dee8e54090ff5b729909db2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NewTex_1:
+        m_Texture: {fileID: 2800000, guid: 7f28c5eb15c11c2499cca1a592a181c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - DistortionUV_DistanceX_1: 0.6
+    - DistortionUV_DistanceY_1: 0
+    - DistortionUV_Speed_1: 1
+    - DistortionUV_WaveX_1: 5
+    - DistortionUV_WaveY_1: 0
+    - LiquidUV_DistanceX_1: 0.2
+    - LiquidUV_DistanceY_1: 0.2
+    - LiquidUV_Speed_1: 1
+    - LiquidUV_WaveX_1: 0.3
+    - LiquidUV_WaveY_1: 0.3
+    - RotationUV_Rotation_1: 90
+    - RotationUV_Rotation_PosX_1: 0.5
+    - RotationUV_Rotation_PosY_1: 0.5
+    - RotationUV_Rotation_Speed_1: 0
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Mask2uv_Fade_100: 0
+    - _Mask2uv_Fade_102: 0
+    - _Mask2uv_Fade_104: 0
+    - _Mask2uv_Fade_106: 0
+    - _Mask2uv_Fade_108: 0
+    - _Mask2uv_Fade_110: 0
+    - _Mask2uv_Fade_112: 0
+    - _Mask2uv_Fade_114: 0
+    - _Mask2uv_Fade_116: 0
+    - _Mask2uv_Fade_118: 0
+    - _Mask2uv_Fade_122: 0
+    - _Mask2uv_Fade_124: 0
+    - _Mask2uv_Fade_126: 0
+    - _Mask2uv_Fade_128: 1
+    - _Mask2uv_Fade_130: 1
+    - _Mask2uv_Fade_132: 1
+    - _Mask2uv_Fade_134: 1
+    - _Mask2uv_Fade_136: 1
+    - _Mask2uv_Fade_138: 1
+    - _Mask2uv_Fade_140: 0.945
+    - _Mask2uv_Fade_142: 1
+    - _Mask2uv_Fade_144: 1
+    - _Mask2uv_Fade_146: 1
+    - _Mask2uv_Fade_148: 1
+    - _Mask2uv_Fade_150: 1
+    - _Mask2uv_Fade_152: 1
+    - _Mask2uv_Fade_154: 1
+    - _Mask2uv_Fade_156: 1
+    - _Mask2uv_Fade_159: 1
+    - _Mask2uv_Fade_162: 1
+    - _Mask2uv_Fade_164: 1
+    - _Mask2uv_Fade_166: 1
+    - _Mask2uv_Fade_168: 1
+    - _Mask2uv_Fade_17: 1
+    - _Mask2uv_Fade_170: 1
+    - _Mask2uv_Fade_172: 1
+    - _Mask2uv_Fade_174: 1
+    - _Mask2uv_Fade_176: 1
+    - _Mask2uv_Fade_178: 1
+    - _Mask2uv_Fade_20: 1
+    - _Mask2uv_Fade_22: 1
+    - _Mask2uv_Fade_24: 1
+    - _Mask2uv_Fade_26: 1
+    - _Mask2uv_Fade_28: 0
+    - _Mask2uv_Fade_30: 1
+    - _Mask2uv_Fade_32: 1
+    - _Mask2uv_Fade_34: 1
+    - _Mask2uv_Fade_36: 1
+    - _Mask2uv_Fade_40: 1
+    - _Mask2uv_Fade_42: 1
+    - _Mask2uv_Fade_44: 1
+    - _Mask2uv_Fade_46: 1
+    - _Mask2uv_Fade_48: 1
+    - _Mask2uv_Fade_50: 1
+    - _Mask2uv_Fade_52: 0
+    - _Mask2uv_Fade_54: 0
+    - _Mask2uv_Fade_56: 1
+    - _Mask2uv_Fade_58: 1
+    - _Mask2uv_Fade_63: 1
+    - _Mask2uv_Fade_88: 1
+    - _Mask2uv_Fade_90: 1
+    - _Mask2uv_Fade_92: 1
+    - _Mask2uv_Fade_94: 1
+    - _Mask2uv_Fade_96: 0
+    - _Mask2uv_Fade_98: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpriteFade: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorGradients2_Color1_1: {r: 0, g: 0, b: 0.019607844, a: 1}
+    - _ColorGradients2_Color2_1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorGradients_Color1_1: {r: 0, g: 0, b: 0.019607844, a: 1}
+    - _ColorGradients_Color2_1: {r: 0, g: 0, b: 0.019607844, a: 1}
+    - _ColorGradients_Color3_1: {r: 0.33333334, g: 0.3921569, b: 0.4901961, a: 1}
+    - _ColorGradients_Color4_1: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

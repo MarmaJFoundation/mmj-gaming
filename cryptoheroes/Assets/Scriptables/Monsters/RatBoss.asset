@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f53e3905c39fbad49929d62c0fd6d68d, type: 3}
+  m_Name: RatBoss
+  m_EditorClassIdentifier: 
+  monsterType: 7
+  classType: 1
+  monsterPrefab: {fileID: 7705980204531641293, guid: e35c44487e0c7d948abad39b8fb28967, type: 3}
+  monsterName: Rat Chieftan
+  dexRange: {x: 25, y: 30}
+  strRange: {x: 25, y: 30}
+  endRange: {x: 250, y: 275}
+  intRange: {x: 55, y: 70}
+  lckRange: {x: 55, y: 70}

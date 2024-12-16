@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f53e3905c39fbad49929d62c0fd6d68d, type: 3}
+  m_Name: Rat 1
+  m_EditorClassIdentifier: 
+  monsterType: 5
+  classType: 3
+  monsterPrefab: {fileID: 7705980204531641293, guid: 83b176c18ab8a394f83175b3e97ef2a5, type: 3}
+  monsterName: Vicious Rat
+  dexRange: {x: 10, y: 20}
+  strRange: {x: 20, y: 25}
+  endRange: {x: 20, y: 30}
+  intRange: {x: 10, y: 20}
+  lckRange: {x: 20, y: 40}

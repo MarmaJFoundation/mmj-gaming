@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@near-wallet-selector/core": "^8.9.5",
+    "near-api-js": "^3.0.3"
+  }
+}
