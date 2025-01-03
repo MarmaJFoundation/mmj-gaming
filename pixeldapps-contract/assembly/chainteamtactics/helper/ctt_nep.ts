@@ -66,17 +66,25 @@ export class NFTContractMetadata {
 
 @nearBindgen
 export class TokenMetadata {
-
     constructor(
         public title: string, // ex. "Arch Nemesis: Mail Carrier" or "Parcel #5055"
         public media: string, // URL to associated media, preferably to decentralized, content-addressed storage
-        public reference: string | null = null, // URL to an off-chain JSON file with more info.
-        public media_hash: string | null = null,
-        public copies: string | null = null,
-        public expires_at: string | null = null,
-        public starts_at: string | null = null,
-        public updated_at: string | null = null,
-        public extra: string | null = null,
-        public reference_hash: string | null = null,
-    ) { }
+        public reference: string, // URL to an off-chain JSON file with more info.
+        public media_hash: string,
+        public copies: string,
+        public expires_at: string,
+        public starts_at: string,
+        public updated_at: string,
+        public extra: string,
+        public reference_hash: string,
+    ) {
+        this.reference = this.reference || "";
+        this.media_hash = this.media_hash || "";
+        this.copies = this.copies || "";
+        this.expires_at = this.expires_at || "";
+        this.starts_at = this.starts_at || "";
+        this.updated_at = this.updated_at || "";
+        this.extra = this.extra || "";
+        this.reference_hash = this.reference_hash || "";
+    }
 }

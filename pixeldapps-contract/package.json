@@ -1,0 +1,21 @@
+{
+  "name": "pixelpets-contract",
+  "version": "1.0.0",
+  "description": "NEAR PixelPets smart contract",
+  "keywords": [
+    "near",
+    "smart-contract",
+    "assemblyscript"
+  ],
+  "license": "ISC",
+  "scripts": {
+    "build": "npm run build:release",
+    "build:debug": "npx asc assembly/index.ts --target debug",
+    "build:release": "npx asc assembly/index.ts --target release --runtime stub",
+    "deploy": "near dev-deploy ./build/release/main.wasm"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.19.23",
+    "near-sdk-as": "^3.2.3"
+  }
+}

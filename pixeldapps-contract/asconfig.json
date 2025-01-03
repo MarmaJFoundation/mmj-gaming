@@ -1,0 +1,21 @@
+{
+  "extends": "near-sdk-as/asconfig.json",
+  "targets": {
+    "debug": {
+      "binaryFile": "build/debug/pixelpets-contract.wasm",
+      "textFile": "build/debug/pixelpets-contract.wat"
+    },
+    "release": {
+      "binaryFile": "build/release/pixelpets-contract.wasm",
+      "textFile": "build/release/pixelpets-contract.wat",
+      "sourceMap": false,
+      "optimizeLevel": 3,
+      "shrinkLevel": 1,
+      "converge": true
+    }
+  },
+  "options": {
+    "compact": true,
+    "exportRuntime": false
+  }
+}

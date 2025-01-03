@@ -2,6 +2,21 @@ import { _onlyContractOwner, _onlyPxDapps } from "../asserts";
 import { randomNumber } from "../utils";
 import { PetBaseData, RarityType } from "./helper/pp_types";
 import { petBaseRegistry } from "./helper/storage_manager";
+// import { log } from "near-sdk-as";
+
+// function logPetMint(ownerId: string, petId: string): void {
+//     log(`{
+//         "standard": "nep171",
+//         "version": "1.0.0",
+//         "event": "nft_mint",
+//         "data": [
+//             {
+//                 "owner_id": "${ownerId}",
+//                 "token_ids": ["${petId}"]
+//             }
+//         ]
+//     }`);
+// }
 
 export function insert_update_pet_impl(petdata: PetBaseData): void {
     _onlyPxDapps();
