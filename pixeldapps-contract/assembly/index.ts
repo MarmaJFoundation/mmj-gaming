@@ -584,9 +584,20 @@ export function nft_transfer(receiver_id: string, token_id: string): void {
 
 export function nft_token(token_id: string): CttUnitToken | null {
     const token = cttUnitTokenRegistry.getSome(token_id);
-    token.metadata = new TokenMetadata("#" + token.token_id + " - " + get_unittype(token.unit_type) + " | Power: " + get_avg_power_modifier(token).toString(), "https://ecosystem.pixeldapps.co/ctt/units/" + token.token_id.toString() + ".png", null);
+    token.metadata = new TokenMetadata(
+        "#" + token.token_id + " - " + get_unittype(token.unit_type) + " | Power: " + get_avg_power_modifier(token).toString(),
+         "https://ecosystem.pixeldapps.co/ctt/units/" + token.token_id.toString() + ".png",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        );
     token.owner_id = token.owner
-    token.metadata.reference = null;
+    token.metadata.reference = "";
     return token;
 }
 

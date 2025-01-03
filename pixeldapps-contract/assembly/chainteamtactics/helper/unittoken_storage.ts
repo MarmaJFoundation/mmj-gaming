@@ -23,9 +23,20 @@ export function ctt_get_units_by_ids_impl(token_ids: TokenId[], start: u32 = 0, 
     let j = 0;
     for (let i: u32 = start; i < limit; i++) {
         const token = cttUnitTokenRegistry.getSome(token_ids[i]);
-        token.metadata = new TokenMetadata("#" + token.token_id + " - " + get_unittype(token.unit_type) + " | Power: " + get_avg_power_modifier(token).toString(), "https://ecosystem.pixeldapps.co/ctt/units/" + token.token_id.toString() + ".png", null);
+        token.metadata = new TokenMetadata(
+            "#" + token.token_id + " - " + get_unittype(token.unit_type) + " | Power: " + get_avg_power_modifier(token).toString(),
+            "https://ecosystem.pixeldapps.co/ctt/units/" + token.token_id.toString() + ".png",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        );
         token.owner_id = token.owner;
-        token.metadata.reference = null;
+        token.metadata.reference = "";
         unit_tokens[j] = token;
         j++;
     }
